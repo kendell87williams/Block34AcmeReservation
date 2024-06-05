@@ -1,0 +1,39 @@
+{
+    "name": "reservation-system",
+    "version": "1.0.0",
+    "description": "A simple reservation system using Express and PostgreSQL",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "dev": "nodemon index.js"
+    },
+    "dependencies": {
+      "body-parser": "^1.19.0",
+      "express": "^4.18.2",
+      "pg": "^8.7.1",
+      "uuid": "^8.3.2"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.15"
+    },
+    "engines": {
+      "node": ">=14.0.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/kendell87williams/Block34AcmeReservation.git"
+    },
+    "keywords": [
+      "express",
+      "postgresql",
+      "reservations",
+      "api"
+    ],
+    "author": "Kendell Williams",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/kendell87williams/Block34AcmeReservation"
+    },
+    "homepage": "https://github.com/kendell87williams/Block34AcmeReservation/edit/main/README.md"
+  }
+  
